@@ -115,6 +115,7 @@ pipeline {
 		}
 	     }
         }
+}
 
         stage('Deploy to Staging Env') {
             steps {
